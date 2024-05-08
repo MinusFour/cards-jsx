@@ -1,0 +1,29 @@
+{
+  "name": "cards-jsx",
+  "version": "1.0.0",
+  "description": "Library for rendering google cards with JSX",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx esbuild --jsx-factory=jsx --platform=node --bundle tests/index.jsx | node"
+  },
+  "keywords": [
+    "jsx",
+    "cards"
+  ],
+  "author": "MinusFour",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/node": "^7.23.9",
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
+    "@babel/preset-env": "^7.24.4",
+    "@eslint/js": "^9.1.1",
+    "esbuild": "^0.20.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
